@@ -48,3 +48,11 @@ section{
 
 
 }
+
+.my-hobby{
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+   background-position: right bottom;
+   
+
+}
