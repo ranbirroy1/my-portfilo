@@ -3,26 +3,38 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: black;
 }
 
 
 h1{
-    font-size: 80px;  
+    font-size: 80px; 
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    
+
 }
 
 h3{
     font-size: 30px;
+    color: rgb(255, 255, 255);
+    
 }
 
 p{
     text-align: justify;
+    color: rgb(255, 255, 255);
 }
 
 .orange-color{
 color: #f86a36;
 }
 
-section{
+.flexible{
     display:flex ;
 }
 
@@ -42,20 +54,35 @@ section{
     border-radius: 7px;
     color: #ffffff;
     font-weight: 900;
-
 }
 
 .top-banner{
-    background-image: url(pic/top-banner.png);
+    background-image: url(pic/exp-bg.png);
     background-repeat: no-repeat;
-
-
+    background-color: black;
 }
 
 .my-hobby{
     background-image: url(pic/dream-bg.png);
     background-repeat: no-repeat;
    background-position: right bottom;
-   
+}
 
+
+.roy{
+   box-shadow: 5px 5px 10px 10px #2c2a2a;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 200px;
+   padding: 20px;
+    
+}
+.ariea{
+    background-image: url(pic/exp-bg.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+footer p{
+    text-align: center;
 }
